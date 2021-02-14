@@ -10,7 +10,7 @@
             h1{
                 font-size: 50pt;
                 text-align: right;
-                color: #f6f6f6;
+                color: #e2e2e2;
                 margin: -20px 0 -30px 0;
                 letter-spacing: -4pt;
             }
