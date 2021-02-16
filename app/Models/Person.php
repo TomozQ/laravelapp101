@@ -22,6 +22,10 @@ class Person extends Model
         return $this->id . ': ' . $this->name . '(' .$this->age . ')';
     }
 
+    public function board()
+    {
+        return $this->hasOne('App\Models\Board');
+    }
     // public function scopeNameEqual( $query, $str )
     // {
     //     return $query->where( 'name', $str );
