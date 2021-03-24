@@ -12,6 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        'hello',
+        'hello/*', //→hello下に用意された全てのページでCSRF対策が行われなくなる
     ];
 }
